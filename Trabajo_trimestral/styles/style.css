@@ -1,0 +1,74 @@
+/* Diseño basado en estilos básicos de W3Schools */
+
+/* NAV */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #555;
+}
+
+nav li.active a {
+    background-color: #04AA6D;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 180px;
+    background: #fafafa;
+}
+
+.card img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.card:hover {
+    background-color: #eee;
+}
+
+/* HEADER & BODY */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}

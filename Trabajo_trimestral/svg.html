@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web4U - Ejemplos y explicación de etiquetas SVG">
+    <title>SVG - Web4U</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Volver al inicio / Back to homepage">Inicio</a></li>
+            <li><a href="html.html" title="Ver ejemplos HTML">HTML</a></li>
+            <li class="active"><a href="svg.html" title="Estás aquí / You are here">SVG</a></li>
+            <li><a href="css.html" title="Ver ejemplos CSS">CSS</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>SVG</h1>
+        <p>Ejemplos de etiquetas SVG básicas y su representación visual.</p>
+        <p><em>Examples of basic SVG tags and how they render on screen.</em></p>
+    </header>
+
+    <!-- TABLE OF CONTENTS -->
+    <section>
+        <h2>Contenido / Table of Contents</h2>
+
+        <ul>
+            <li><a href="#svg" title="Ir a la etiqueta &lt;svg&gt;">Etiqueta &lt;svg&gt;</a></li>
+            <li><a href="#rect" title="Ir a la etiqueta &lt;rect&gt;">Etiqueta &lt;rect&gt;</a></li>
+            <li><a href="#circle" title="Ir a la etiqueta &lt;circle&gt;">Etiqueta &lt;circle&gt;</a></li>
+            <li><a href="#line" title="Ir a la etiqueta &lt;line&gt;">Etiqueta &lt;line&gt;</a></li>
+            <li><a href="#text" title="Ir a la etiqueta &lt;text&gt;">Etiqueta &lt;text&gt;</a></li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- TAG 1: SVG -->
+    <section id="svg">
+        <h2>&lt;svg&gt; - Contenedor SVG</h2>
+
+        <p><strong>Descripción:</strong> Define un lienzo SVG en el que se dibujan formas.</p>
+        <p><em>Description: Defines an SVG canvas where shapes are drawn.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;svg width="200" height="100"&gt;
+&lt;!-- contenido gráfico aquí --&gt;
+&lt;/svg&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/svg.png" alt="Ejemplo contenedor svg">
+
+        <p>
+            <a href="https://www.w3.org/TR/SVG/struct.html#SVGElement" 
+               title="Enlace al estándar W3C de &lt;svg&gt;" 
+               target="_blank">Más información en W3C (Non-HTML resource)</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 2: RECT -->
+    <section id="rect">
+        <h2>&lt;rect&gt; - Rectángulo</h2>
+
+        <p><strong>Descripción:</strong> Dibuja un rectángulo dentro del lienzo SVG.</p>
+        <p><em>Description: Draws a rectangle within the SVG canvas.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;svg width="200" height="100"&gt;
+    &lt;rect x="10" y="10" width="150" height="80" fill="blue" /&gt;
+&lt;/svg&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/rect.png" alt="Ejemplo etiqueta rect">
+
+        <p>
+            <a href="https://www.w3.org/TR/SVG/shapes.html#RectElement" 
+               title="Enlace al estándar W3C de &lt;rect&gt;" 
+               target="_blank">Más información en W3C</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 3: CIRCLE -->
+    <section id="circle">
+        <h2>&lt;circle&gt; - Círculo</h2>
+
+        <p><strong>Descripción:</strong> Dibuja un círculo.</p>
+        <p><em>Description: Draws a circle.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;svg width="200" height="100"&gt;
+    &lt;circle cx="50" cy="50" r="40" fill="red" /&gt;
+&lt;/svg&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/circle.png" alt="Ejemplo etiqueta circle">
+
+        <p>
+            <a href="https://www.w3.org/TR/SVG/shapes.html#CircleElement" 
+               title="Enlace al estándar W3C de &lt;circle&gt;" 
+               target="_blank">Más información en W3C</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 4: LINE -->
+    <section id="line">
+        <h2>&lt;line&gt; - Línea</h2>
+
+        <p><strong>Descripción:</strong> Dibuja una línea recta entre dos puntos.</p>
+        <p><em>Description: Draws a straight line between two points.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;svg width="200" height="100"&gt;
+    &lt;line x1="10" y1="10" x2="180" y2="90" stroke="black" stroke-width="3" /&gt;
+&lt;/svg&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/line.png" alt="Ejemplo etiqueta line">
+
+        <p>
+            <a href="https://www.w3.org/TR/SVG/shapes.html#LineElement" 
+               title="Enlace al estándar W3C de &lt;line&gt;" 
+               target="_blank">Más información en W3C</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 5: TEXT -->
+    <section id="text">
+        <h2>&lt;text&gt; - Texto SVG</h2>
+
+        <p><strong>Descripción:</strong> Inserta texto dentro del SVG.</p>
+        <p><em>Description: Inserts text within an SVG canvas.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;svg width="200" height="100"&gt;
+    &lt;text x="20" y="50" font-size="24" fill="green"&gt;Hola&lt;/text&gt;
+&lt;/svg&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/text.png" alt="Ejemplo etiqueta text">
+
+        <p>
+            <a href="https://www.w3.org/TR/SVG/text.html#TextElement" 
+               title="Enlace al estándar W3C de &lt;text&gt;" 
+               target="_blank">Más información en W3C</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- PDF LINK -->
+    <section>
+        <h2>Versión PDF</h2>
+        <p>
+            <a href="pdf/svg.pdf" title="Descargar PDF con todo el contenido">Descargar PDF</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Web4U © 2024 — Proyecto educativo IES La Marisma</p>
+    </footer>
+
+</body>
+</html>

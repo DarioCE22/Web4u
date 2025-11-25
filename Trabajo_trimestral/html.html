@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web4U - Ejemplos y explicación de etiquetas HTML">
+    <title>HTML - Web4U</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Volver al inicio / Back to homepage">Inicio</a></li>
+            <li class="active"><a href="html.html" title="Estás aquí / You are here">HTML</a></li>
+            <li><a href="svg.html" title="Ver ejemplos SVG">SVG</a></li>
+            <li><a href="css.html" title="Ver ejemplos CSS">CSS</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>HTML</h1>
+        <p>Ejemplos de etiquetas esenciales y su uso en el navegador.</p>
+        <p><em>Examples of essential HTML tags and how they render in the browser.</em></p>
+    </header>
+
+    <!-- TABLE OF CONTENTS -->
+    <section>
+        <h2>Contenido / Table of Contents</h2>
+
+        <ul>
+            <li><a href="#h1" title="Ir a la etiqueta &lt;h1&gt;">Etiqueta &lt;h1&gt;</a></li>
+            <li><a href="#p" title="Ir a la etiqueta &lt;p&gt;">Etiqueta &lt;p&gt;</a></li>
+            <li><a href="#a" title="Ir a la etiqueta &lt;a&gt;">Etiqueta &lt;a&gt;</a></li>
+            <li><a href="#img" title="Ir a la etiqueta &lt;img&gt;">Etiqueta &lt;img&gt;</a></li>
+            <li><a href="#ul" title="Ir a la etiqueta &lt;ul&gt;">Etiqueta &lt;ul&gt;</a></li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- TAG 1: H1 -->
+    <section id="h1">
+        <h2>&lt;h1&gt; - Encabezado principal</h2>
+
+        <p><strong>Descripción:</strong> Se usa para títulos principales.</p>
+        <p><em>Description: Used for main page headings.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;h1&gt;Este es un título&lt;/h1&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/h1.png" alt="Ejemplo etiqueta h1">
+
+        <p><a href="https://www.w3.org/TR/html401/struct/global.html#h-7.5.5" 
+              title="Enlace al estándar W3C para &lt;h1&gt;" 
+              target="_blank">Más información en W3C (Non-HTML resource)</a></p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 2: P -->
+    <section id="p">
+        <h2>&lt;p&gt; - Párrafo</h2>
+
+        <p><strong>Descripción:</strong> Representa un párrafo de texto.</p>
+        <p><em>Description: Represents a paragraph of text.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;p&gt;Hola, este es un párrafo de ejemplo.&lt;/p&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/p.png" alt="Ejemplo etiqueta p">
+
+        <p><a href="https://www.w3.org/TR/html401/struct/text.html#h-9.3.1" 
+              title="Enlace al estándar W3C para &lt;p&gt;" 
+              target="_blank">Más información en W3C</a></p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 3: A -->
+    <section id="a">
+        <h2>&lt;a&gt; - Enlace</h2>
+
+        <p><strong>Descripción:</strong> Crea hipervínculos entre documentos.</p>
+        <p><em>Description: Creates hyperlinks between documents.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;a href="https://example.com"&gt;Visitar sitio&lt;/a&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/a.png" alt="Ejemplo etiqueta a">
+
+        <p><a href="https://www.w3.org/TR/html401/struct/links.html#h-12.2" 
+              title="Enlace al estándar W3C para &lt;a&gt;" 
+              target="_blank">Más información en W3C</a></p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 4: IMG -->
+    <section id="img">
+        <h2>&lt;img&gt; - Imagen</h2>
+
+        <p><strong>Descripción:</strong> Inserta imágenes en la página.</p>
+        <p><em>Description: Inserts images into the page.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;img src="foto.png" alt="Descripción de la imagen"&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/img.png" alt="Ejemplo etiqueta img">
+
+        <p><a href="https://www.w3.org/TR/html401/struct/objects.html#h-13.2" 
+              title="Enlace al estándar W3C para &lt;img&gt;" 
+              target="_blank">Más información en W3C</a></p>
+    </section>
+
+    <hr>
+
+    <!-- TAG 5: UL -->
+    <section id="ul">
+        <h2>&lt;ul&gt; - Lista desordenada</h2>
+
+        <p><strong>Descripción:</strong> Crea listas de elementos sin orden numérico.</p>
+        <p><em>Description: Creates unordered lists.</em></p>
+
+        <h3>Ejemplo</h3>
+        <pre><code>&lt;ul&gt;
+    &lt;li&gt;Manzana&lt;/li&gt;
+    &lt;li&gt;Plátano&lt;/li&gt;
+    &lt;li&gt;Naranja&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+        <h3>Resultado en el navegador:</h3>
+        <img src="images/ejemplos/ul.png" alt="Ejemplo etiqueta ul">
+
+        <p><a href="https://www.w3.org/TR/html401/struct/lists.html#h-10.2" 
+              title="Enlace al estándar W3C para &lt;ul&gt;" 
+              target="_blank">Más información en W3C</a></p>
+    </section>
+
+    <hr>
+
+    <!-- PDF LINK -->
+    <section>
+        <h2>Versión PDF</h2>
+        <p>
+            <a href="pdf/html.pdf" title="Descargar PDF con todo el contenido">Descargar PDF</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Web4U © 2024 — Proyecto educativo IES La Marisma</p>
+    </footer>
+
+</body>
+</html>
